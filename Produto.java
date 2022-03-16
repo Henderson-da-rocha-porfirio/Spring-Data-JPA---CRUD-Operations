@@ -5,8 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity // this is mandatory annotation the next one at table:
-@Table // Optional - só é necessária apenas se o nome da tabela no database for diferente do da classe.
+@Entity                                 // this is mandatory annotation the next one at table:
+@Table                                  // Optional - só é necessária apenas se o nome da tabela no database for diferente do da classe.
 public class Produto {
     private static final long serialVersionUID = 1L;
 
